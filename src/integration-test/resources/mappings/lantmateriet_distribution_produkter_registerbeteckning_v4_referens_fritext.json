@@ -1,0 +1,27 @@
+{
+  "id": "bceb656c-ed61-45fc-893c-109ee86144ce",
+  "name": "distribution_produkter_registerbeteckning_v4_referens_fritext",
+  "request": {
+    "urlPathPattern": "/distribution/produkter/registerbeteckning/v4/referens/fritext/(.+)",
+    "method": "GET",
+    "queryParameters": {
+      "statusFastighet": {
+        "equalTo": "Gällande"
+      },
+      "maxHits": {
+        "equalTo": "1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "GetRegisterbeteckning200.json",
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8",
+      "Date": "Tue, 27 Jul 2021 13:15:24 GMT"
+    }
+  },
+  "uuid": "bceb656c-ed61-45fc-893c-109ee86144ce",
+  "persistent": true,
+  "insertionIndex": 6
+}

@@ -1,0 +1,10 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <RegisterDocumentResponse xmlns="urn:Ecos.API.MinutMiljo.Service.V2">
+            <RegisterDocumentResult xmlns:a="urn:Ecos.API.MinutMiljo.DataContracts.V1">
+                <a:CaseId>037dbeb2-b879-401c-8513-fe90c3db28fe</a:CaseId>
+                <a:CaseNumber>MK-2021-837</a:CaseNumber>
+            </RegisterDocumentResult>
+        </RegisterDocumentResponse>
+    </s:Body>
+</s:Envelope>

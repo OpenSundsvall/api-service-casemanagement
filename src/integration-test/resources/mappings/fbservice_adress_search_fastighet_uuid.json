@@ -1,0 +1,32 @@
+{
+  "id": "50e61d92-0f3d-4594-9c87-e34709ccf988",
+  "name": "fbservice_adress_search_fastighet_uuid",
+  "request": {
+    "urlPath": "/fbservice/adress/search/fastighet/uuid",
+    "method": "POST",
+    "queryParameters": {
+      "Database": {
+        "equalTo": "Standard"
+      },
+      "User": {
+        "matches": "\\w+"
+      },
+      "Password": {
+        "matches": "\\w+"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "PostSearchFastighet200.json",
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Server": "Kestrel",
+      "X-Powered-By": "ASP.NET",
+      "Date": "Tue, 27 Jul 2021 13:51:17 GMT"
+    }
+  },
+  "uuid": "50e61d92-0f3d-4594-9c87-e34709ccf988",
+  "persistent": true,
+  "insertionIndex": 15
+}

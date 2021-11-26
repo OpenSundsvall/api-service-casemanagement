@@ -1,0 +1,25 @@
+{
+  "caseType" : "NYBYGGNAD_ANSOKAN_OM_BYGGLOV",
+  "externalCaseId" : 123456,
+  "stakeholders" : [ {
+    "type" : "PERSON",
+    "roles" : [ "APPLICANT" ],
+    "organizationName": "Testföretag",
+    "firstName" : "Test",
+    "lastName" : "Testorsson",
+    "personId" : "a56296af-9298-46fc-a6fe-ca214847f718"
+  } ],
+  "attachments" : [ {
+    "category" : "ANSOKAN_OM_BYGGLOV",
+    "name" : "Ansökan om bygglov",
+    "extension" : ".pdf",
+    "mimeType" : "application/pdf",
+    "file" : "dGVzdA=="
+  } ],
+  "facility" : {
+    "facilityType" : "ONE_FAMILY_HOUSE",
+    "address" : {
+      "propertyDesignation" : "SUNDSVALL FILLA 8:185"
+    }
+  }
+}

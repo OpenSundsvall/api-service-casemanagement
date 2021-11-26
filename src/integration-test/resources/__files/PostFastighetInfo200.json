@@ -1,0 +1,40 @@
+{
+  "statusKod": 0,
+  "statusMeddelande": "",
+  "fel": null,
+  "data": [
+    {
+      "status": "L",
+      "kommunKod": "2281",
+      "kommun": "SUNDSVALL",
+      "beteckning": "BIRSTA 36:14",
+      "trakt": "BIRSTA",
+      "beteckningsnummer": "36:14",
+      "block": "36",
+      "tecken": ":",
+      "enhet": 14,
+      "ofullstandigRattighetsredovisning": false,
+      "outreddaAndelarISamfalligheter": false,
+      "forvarvstillstandOmarrendering": false,
+      "kronohemman": false,
+      "delagareOfullstandigtRedovisade": false,
+      "felIFR": false,
+      "underAjourforingIFR": false,
+      "senasteAjourforingIFR": "00000000",
+      "utanforBevakningskrets": false,
+      "preliminarTypkod": null,
+      "har3DOmrade": false,
+      "ar3DUrholkad": false,
+      "andelAvserUtforandeOchDrift": null,
+      "samfallighetFarAndraAndel": null,
+      "andelAvserEndastDrift": null,
+      "summaAndelstal": null,
+      "arAgarlagenhet": false,
+      "arUrholkadAvAgarlagenhet": false,
+      "forvarvstillstandGlesbygd": false,
+      "fnr": 22045607,
+      "cfdFnr": "220045607",
+      "uuid": "909a6a80-72e9-90ec-e040-ed8f66444c3f"
+    }
+  ]
+}

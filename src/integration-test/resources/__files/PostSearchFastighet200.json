@@ -1,0 +1,16 @@
+{
+  "statusKod": 0,
+  "statusMeddelande": "",
+  "fel": null,
+  "data": [
+    {
+      "uuid": "909a6a80-72e9-90ec-e040-ed8f66444c3f",
+      "grupp": [
+        {
+          "adressplatsId": 90022399,
+          "uuid": "b758bb7c-fbf0-48f2-b6a3-23ec62df9533"
+        }
+      ]
+    }
+  ]
+}

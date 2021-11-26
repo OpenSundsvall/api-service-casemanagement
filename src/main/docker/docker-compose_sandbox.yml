@@ -1,0 +1,46 @@
+#
+# Sandbox
+#
+version: '2'
+services:
+  ms-casemanagementservice-sandbox:
+    container_name: ms-casemanagementservice-sandbox
+    build:
+      dockerfile: ./src/main/docker/Dockerfile
+      context: ../../..
+      args:
+        PROFILE: '-Dquarkus-profile=sandbox'
+    restart: always
+    ports:
+      - 9090:9090
+    depends_on:
+      - wiremock
+    environment:
+      FBWEBB_ORIGIN: 'http://wiremock:8080'
+      FB_USER: 'sandbox'
+      FB_PASSWORD: 'sandbox'
+
+      LANTMATERIET_ORIGIN: 'http://wiremock:8080'
+      LANTMATERIET_CONSUMER_KEY: 'sandbox'
+      LANTMATERIET_CONSUMER_SECRET: 'sandbox'
+
+      SUNDSVALLS_KOMMUN_INTERNAL_ORIGIN: 'http://wiremock:8080'
+      SUNDSVALLS_KOMMUN_EXTERNAL_ORIGIN: 'http://wiremock:8080'
+      SUNDSVALLS_KOMMUN_CONSUMER_KEY: 'sandbox'
+      SUNDSVALLS_KOMMUN_CONSUMER_SECRET: 'sandbox'
+
+      ARENDEEXPORT_SOAP_ORIGIN: 'http://wiremock:8080'
+      MINUTMILJO_SOAP_ORIGIN: 'http://wiremock:8080'
+      MINUTMILJO_PWD: 'sandbox'
+      MINUTMILJO_USER: 'sandbox'
+
+      DB_USERNAME: ''
+      DB_PWD: ''
+      DB_URL: 'jdbc:h2:mem:sandbox;DB_CLOSE_DELAY=-1'
+      DB_HIBERNATE_GENERATION: 'drop-and-create'
+
+  wiremock:
+    image: wiremock/wiremock
+    restart: always
+    volumes:
+      - $PWD/src/integration-test/resources:/home/wiremock

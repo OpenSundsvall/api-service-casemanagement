@@ -1,0 +1,40 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <SearchCaseResponse xmlns="urn:Ecos.API.MinutMiljo.Service.V1">
+            <SearchCaseResult xmlns:a="urn:Ecos.API.MinutMiljo.DataContracts.V1" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <a:SearchCaseResultSvcDto>
+                    <a:CaseId>191e6aad-b0bb-4ad3-b06c-6fc347bd15c6</a:CaseId>
+                    <a:CaseNumber>MK-2021-971</a:CaseNumber>
+                    <a:CaseSubtitle>Kalle Anka Fabriken, SUNDSVALL BIRSTA 36:14</a:CaseSubtitle>
+                    <a:CaseSubtitleFree/>
+                    <a:EstateDesignation>Kalle Anka Fabriken</a:EstateDesignation>
+                    <a:ProcessTypeName>MK-2021-971  - Registrering av livsmedelsanläggning  - Kalle Anka Fabriken, SUNDSVALL BIRSTA 36:14 </a:ProcessTypeName>
+                </a:SearchCaseResultSvcDto>
+                <a:SearchCaseResultSvcDto>
+                    <a:CaseId>6c0b98f9-9aa1-4c69-99d6-3853c55c64d5</a:CaseId>
+                    <a:CaseNumber>MK-2021-966</a:CaseNumber>
+                    <a:CaseSubtitle>Kalle Anka Fabriken, SUNDSVALL BIRSTA 36:14</a:CaseSubtitle>
+                    <a:CaseSubtitleFree/>
+                    <a:EstateDesignation>Kalle Anka Fabriken</a:EstateDesignation>
+                    <a:ProcessTypeName>MK-2021-966  - Registrering av livsmedelsanläggning  - Kalle Anka Fabriken, SUNDSVALL BIRSTA 36:14 </a:ProcessTypeName>
+                </a:SearchCaseResultSvcDto>
+                <a:SearchCaseResultSvcDto>
+                    <a:CaseId>e1b53cdf-5c78-4633-906e-effb077acb7b</a:CaseId>
+                    <a:CaseNumber>MK-2021-968</a:CaseNumber>
+                    <a:CaseSubtitle>Kalle Anka Fabriken, SUNDSVALL BIRSTA 36:14</a:CaseSubtitle>
+                    <a:CaseSubtitleFree/>
+                    <a:EstateDesignation>Kalle Anka Fabriken</a:EstateDesignation>
+                    <a:ProcessTypeName>MK-2021-968  - Registrering av livsmedelsanläggning  - Kalle Anka Fabriken, SUNDSVALL BIRSTA 36:14 </a:ProcessTypeName>
+                </a:SearchCaseResultSvcDto>
+                <a:SearchCaseResultSvcDto>
+                    <a:CaseId>ec36d2a7-591b-4873-8a20-8958bc4be221</a:CaseId>
+                    <a:CaseNumber>MK-2021-967</a:CaseNumber>
+                    <a:CaseSubtitle>Kalle Anka Fabriken, SUNDSVALL BIRSTA 36:14</a:CaseSubtitle>
+                    <a:CaseSubtitleFree/>
+                    <a:EstateDesignation>Kalle Anka Fabriken</a:EstateDesignation>
+                    <a:ProcessTypeName>MK-2021-967  - Registrering av livsmedelsanläggning  - Kalle Anka Fabriken, SUNDSVALL BIRSTA 36:14 </a:ProcessTypeName>
+                </a:SearchCaseResultSvcDto>
+            </SearchCaseResult>
+        </SearchCaseResponse>
+    </s:Body>
+</s:Envelope>

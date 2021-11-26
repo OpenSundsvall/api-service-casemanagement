@@ -1,0 +1,7 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <CreateOrganizationPartyResponse xmlns="urn:Ecos.API.MinutMiljo.Service.V1">
+            <CreateOrganizationPartyResult>cadcf697-583a-4480-97c9-3d7be07e1c5d</CreateOrganizationPartyResult>
+        </CreateOrganizationPartyResponse>
+    </s:Body>
+</s:Envelope>

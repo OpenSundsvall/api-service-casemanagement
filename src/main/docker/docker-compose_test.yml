@@ -1,0 +1,48 @@
+#
+# Test
+#
+services:
+  casemanagement-test:
+    restart: always
+    build:
+      context: ../../..
+      dockerfile: ./src/main/docker/Dockerfile
+    ports:
+      - '9090:9090'
+    depends_on:
+      - mariadb
+    environment:
+      FBWEBB_ORIGIN: $FBWEBB_ORIGIN
+      FB_USER: $FB_USER
+      FB_PASSWORD: $FB_PASSWORD
+
+      LANTMATERIET_ORIGIN: $LANTMATERIET_ORIGIN
+      LANTMATERIET_CONSUMER_KEY: $LANTMATERIET_CONSUMER_KEY
+      LANTMATERIET_CONSUMER_SECRET: $LANTMATERIET_CONSUMER_SECRET
+
+      SUNDSVALLS_KOMMUN_INTERNAL_ORIGIN: $SUNDSVALLS_KOMMUN_INTERNAL_ORIGIN
+      SUNDSVALLS_KOMMUN_EXTERNAL_ORIGIN: $SUNDSVALLS_KOMMUN_EXTERNAL_ORIGIN
+      SUNDSVALLS_KOMMUN_CONSUMER_KEY: $SUNDSVALLS_KOMMUN_CONSUMER_KEY
+      SUNDSVALLS_KOMMUN_CONSUMER_SECRET: $SUNDSVALLS_KOMMUN_CONSUMER_SECRET
+
+      ARENDEEXPORT_SOAP_ORIGIN: $ARENDEEXPORT_SOAP_ORIGIN
+      MINUTMILJO_SOAP_ORIGIN: $MINUTMILJO_SOAP_ORIGIN
+      MINUTMILJO_PWD: $MINUTMILJO_PWD
+      MINUTMILJO_USER: $MINUTMILJO_USER
+
+      DB_KIND: 'mariadb'
+      DB_USERNAME: 'dbuser'
+      DB_PWD: 'dbpass'
+      DB_URL: 'jdbc:mariadb://mariadb/casemanagement'
+      DB_HIBERNATE_GENERATION: 'drop-and-create'
+
+  mariadb:
+    image: 'mariadb:10.3'
+    restart: always
+    ports:
+      - '3306'
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: 'yes'
+      MYSQL_DATABASE: 'casemanagement'
+      MYSQL_USER: 'dbuser'
+      MYSQL_PASSWORD: 'dbpass'

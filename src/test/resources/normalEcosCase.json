@@ -1,0 +1,84 @@
+{
+  "externalCaseId": 12312322222,
+  "caseType": "LIVSMEDELSVERKSAMHET_ANMALAN_OM_REGISTRERING",
+  "startDate": "2021-08-24",
+  "endDate": "2022-06-15",
+  "facility": {
+    "facilityCollectionName": "Kalle Anka Fabriken",
+    "address": {
+      "addressCategories": [
+        "VISITING_ADDRESS"
+      ],
+      "propertyDesignation": "SUNDSVALL FILLA 8:185"
+    }
+  },
+  "stakeholders": [
+    {
+      "type": "ORGANIZATION",
+      "roles": [
+        "OPERATOR",
+        "INVOICE_RECIPENT"
+      ],
+      "organizationName": "Kalle Anka AB",
+      "organizationNumber": "111111-9999",
+      "authorizedSignatory": "Kalle Anka",
+      "phoneNumber": "060161616",
+      "cellphoneNumber": "0708888888",
+      "emailAddress": "firmatecknare@test.se",
+      "addresses": [
+        {
+          "addressCategories": [
+            "VISITING_ADDRESS"
+          ],
+          "street": "Besöksvägen",
+          "houseNumber": "20",
+          "postalCode": "123 46",
+          "city": "Sundsvall",
+          "country": "Sverige"
+        },
+        {
+          "addressCategories": [
+            "POSTAL_ADDRESS"
+          ],
+          "street": "Postvägen",
+          "houseNumber": "20",
+          "postalCode": "123 46",
+          "city": "Sundsvall",
+          "country": "Sverige",
+          "careOf": "Ett namn"
+        },
+        {
+          "addressCategories": [
+            "INVOICE_ADDRESS"
+          ],
+          "street": "Fakturavägen",
+          "houseNumber": "20",
+          "postalCode": "123 46",
+          "city": "Sundsvall",
+          "country": "Sverige",
+          "careOf": "Ett annat namn",
+          "attention": "Attentionsnamn"
+        }
+      ]
+    },
+    {
+      "type": "PERSON",
+      "roles": [
+        "CONTACT_PERSON"
+      ],
+      "firstName": "Anders",
+      "lastName": "Andersson",
+      "phoneNumber": "0701111111",
+      "emailAddress": "anders@test.se"
+    }
+  ],
+  "attachments": [
+    {
+      "category": "ANMALAN_LIVSMEDELSANLAGGNING",
+      "name": "Testdokument anmälan livsmedelsanläggning ",
+      "extension": ".pdf",
+      "mimeType": "application/pdf",
+      "file": "dGVzdA=="
+    }
+  ]
+}

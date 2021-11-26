@@ -1,0 +1,27 @@
+{
+  "id": "50cfc74b-16d6-479b-ae9d-8260584ff84f",
+  "name": "tekisarende_arendeexportwssvc",
+  "request": {
+    "url": "/TekisArende/ArendeExportWS.svc",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "contains": "SaveNewArende"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "ByggrSaveNewArende200.xml",
+    "headers": {
+      "Content-Type": "text/xml; charset=utf-8",
+      "Vary": "Accept-Encoding",
+      "Server": "Microsoft-IIS/10.0",
+      "X-Powered-By": "ASP.NET",
+      "Date": "Wed, 28 Jul 2021 06:31:46 GMT"
+    }
+  },
+  "uuid": "50cfc74b-16d6-479b-ae9d-8260584ff84f",
+  "persistent": true,
+  "insertionIndex": 10
+}

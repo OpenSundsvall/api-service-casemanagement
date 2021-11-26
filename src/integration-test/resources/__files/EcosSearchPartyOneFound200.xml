@@ -1,0 +1,93 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <SearchPartyResponse xmlns="urn:Ecos.API.MinutMiljo.Service.V1">
+            <SearchPartyResult xmlns:a="urn:Ecos.API.MinutMiljo.DataContracts.V1" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <a:PartySvcDto i:type="a:OrganizationSvcDto">
+                    <a:Addresses>
+                        <a:PartyAddressSvcDto>
+                            <a:AddressTypes>
+                                <a:AddressTypeSvcDto>
+                                    <a:Id>eef91381-7025-4fe7-b5fa-92fb2b77976b</a:Id>
+                                    <a:Name>Fakturaadress</a:Name>
+                                </a:AddressTypeSvcDto>
+                            </a:AddressTypes>
+                            <a:CareOfName>Ett annat namn</a:CareOfName>
+                            <a:Country>Sverige</a:Country>
+                            <a:PostCode>12346</a:PostCode>
+                            <a:PostalArea>Sundsvall</a:PostalArea>
+                            <a:StreetName>Fakturavägen</a:StreetName>
+                            <a:StreetNumber>20</a:StreetNumber>
+                        </a:PartyAddressSvcDto>
+                        <a:PartyAddressSvcDto>
+                            <a:AddressTypes>
+                                <a:AddressTypeSvcDto>
+                                    <a:Id>b1d7655c-d2d9-4d69-96a2-1267960c6102</a:Id>
+                                    <a:Name>Postadress</a:Name>
+                                </a:AddressTypeSvcDto>
+                            </a:AddressTypes>
+                            <a:CareOfName>Ett namn</a:CareOfName>
+                            <a:Country>Sverige</a:Country>
+                            <a:PostCode>12346</a:PostCode>
+                            <a:PostalArea>Sundsvall</a:PostalArea>
+                            <a:StreetName>Postvägen</a:StreetName>
+                            <a:StreetNumber>20</a:StreetNumber>
+                        </a:PartyAddressSvcDto>
+                        <a:PartyAddressSvcDto>
+                            <a:AddressTypes>
+                                <a:AddressTypeSvcDto>
+                                    <a:Id>00cce3b3-52c0-4b7e-af68-a8204f595a48</a:Id>
+                                    <a:Name>Besöksadress</a:Name>
+                                </a:AddressTypeSvcDto>
+                            </a:AddressTypes>
+                            <a:CareOfName/>
+                            <a:Country>Sverige</a:Country>
+                            <a:PostCode>12346</a:PostCode>
+                            <a:PostalArea>Sundsvall</a:PostalArea>
+                            <a:StreetName>Besöksvägen</a:StreetName>
+                            <a:StreetNumber>20</a:StreetNumber>
+                        </a:PartyAddressSvcDto>
+                    </a:Addresses>
+                    <a:Certificates/>
+                    <a:CounterPartCode i:nil="true"/>
+                    <a:CustomerNumber i:nil="true"/>
+                    <a:Id>6c83bf2f-0ad4-4a6b-931d-8bb3c67bde5a</a:Id>
+                    <a:NationalIdentificationNumber>16111111-9999</a:NationalIdentificationNumber>
+                    <a:ContactInfo>
+                        <a:ContactInfoSvcDto>
+                            <a:ContactDetails>
+                                <a:ContactInfoItemSvcDto>
+                                    <a:ContactDetailId>701b37e8-73d9-46f9-9703-19e3c0644509</a:ContactDetailId>
+                                    <a:ContactDetailTypeId>6dcbe753-81c5-4fa5-b0d4-0216411cb119</a:ContactDetailTypeId>
+                                    <a:ContactPathId>2bb38776-54e4-405e-9e84-bd841c6bb2c3</a:ContactPathId>
+                                    <a:Note i:nil="true"/>
+                                    <a:Value>060161616</a:Value>
+                                </a:ContactInfoItemSvcDto>
+                                <a:ContactInfoItemSvcDto>
+                                    <a:ContactDetailId>42be3abc-ae4f-49d1-832c-2df4e35f9b1d</a:ContactDetailId>
+                                    <a:ContactDetailTypeId>bf1f20e2-7687-4be0-86cf-06a7f6b31303</a:ContactDetailTypeId>
+                                    <a:ContactPathId>d34442ac-d8f7-419a-be2b-2794674de58e</a:ContactPathId>
+                                    <a:Note i:nil="true"/>
+                                    <a:Value>firmatecknare@test.se</a:Value>
+                                </a:ContactInfoItemSvcDto>
+                                <a:ContactInfoItemSvcDto>
+                                    <a:ContactDetailId>f729be63-d1be-47f7-897e-60e7cb338424</a:ContactDetailId>
+                                    <a:ContactDetailTypeId>9c26c006-76a9-4331-8b00-67984ac40885</a:ContactDetailTypeId>
+                                    <a:ContactPathId>2bb38776-54e4-405e-9e84-bd841c6bb2c3</a:ContactPathId>
+                                    <a:Note i:nil="true"/>
+                                    <a:Value>0708888888</a:Value>
+                                </a:ContactInfoItemSvcDto>
+                            </a:ContactDetails>
+                            <a:ContactId>7063c169-5808-4cb6-88bb-7dc437855457</a:ContactId>
+                            <a:Title>Kalle Anka</a:Title>
+                        </a:ContactInfoSvcDto>
+                    </a:ContactInfo>
+                    <a:IsInternalCustomer>false</a:IsInternalCustomer>
+                    <a:IsMainOffice>false</a:IsMainOffice>
+                    <a:OrganizationName>Kalle Anka AB</a:OrganizationName>
+                    <a:Webpage i:nil="true"/>
+                    <a:IsForeignIdentificationNumber>false</a:IsForeignIdentificationNumber>
+                </a:PartySvcDto>
+            </SearchPartyResult>
+        </SearchPartyResponse>
+    </s:Body>
+</s:Envelope>

@@ -1,0 +1,7 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <CreatePersonPartyResponse xmlns="urn:Ecos.API.MinutMiljo.Service.V1">
+            <CreatePersonPartyResult>5234be83-db29-42fd-9415-bae40ae1f6d6</CreatePersonPartyResult>
+        </CreatePersonPartyResponse>
+    </s:Body>
+</s:Envelope>

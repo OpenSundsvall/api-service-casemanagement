@@ -1,0 +1,7 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <CreateFoodFacilityResponse xmlns="urn:Ecos.API.MinutMiljo.Service.V1">
+            <CreateFoodFacilityResult>d3bf282e-7e91-4266-bbe2-ebbb9e1e820d</CreateFoodFacilityResult>
+        </CreateFoodFacilityResponse>
+    </s:Body>
+</s:Envelope>
