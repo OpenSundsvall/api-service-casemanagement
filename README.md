@@ -1,6 +1,6 @@
 # CaseManagement
 
-https://sundsvall.atlassian.net/wiki/spaces/SK/pages/47317017/CaseManagement
+![image](https://user-images.githubusercontent.com/75727533/143845624-7a17acf6-81c1-4e38-a477-8315306c2daf.png)
 
 ## Config
 
