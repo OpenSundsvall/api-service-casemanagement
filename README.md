@@ -70,3 +70,5 @@ Använd detta kommando för att bygga och starta applikationen med sandbox-confi
 `docker-compose -f src/main/docker/docker-compose_sandbox.yml build && docker-compose -f src/main/docker/docker-compose_sandbox.yml up`
 
 
+## 
+Copyright (c) 2021 Sundsvalls kommun
